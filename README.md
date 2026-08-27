@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/profile-field-notes.svg" width="100%" alt="Arturo Rivera's field notes on reliable data systems" />
+</p>
+
 # Hi, I'm Arturo
 
 Thanks for stopping by.
@@ -10,6 +14,10 @@ Most of the projects here start with a failure case. I build the recovery path, 
 without a pile of cloud setup, and document the tradeoffs honestly.
 
 ## A few projects to start with
+
+<p align="center">
+  <img src="./assets/project-constellation.svg" width="100%" alt="A map connecting Arturo's flagship projects to reliable systems" />
+</p>
 
 **[PulseCart](https://github.com/Arturo6PR/pulsecart-data-platform)** is the broadest project here. It
 takes a fictional retail problem from raw events through contracts, quarantine, incremental state,
@@ -59,4 +67,3 @@ modes, and a section on tradeoffs. These are the quickest starting points:
 4. [Walk through the PulseCart retail pipeline](https://github.com/Arturo6PR/pulsecart-data-platform#quick-demo)
 
 Everything above runs locally and in CI without paid cloud resources or an external AI service.
-
