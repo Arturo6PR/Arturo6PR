@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="410" viewBox="0 0 1100 410" role="img" aria-labelledby="title desc">
+  <title id="title">A map of Arturo Rivera's flagship engineering projects</title>
+  <desc id="desc">Four projects connected to reliable systems: PulseCart for end-to-end data, StreamLedger for CDC replay, DriftLedger for feature safety, and QueryBudget for cost control.</desc>
+  <defs>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#B7AA94" opacity="0.4"/>
+    </pattern>
+  </defs>
+
+  <rect x="2" y="2" width="1096" height="406" rx="18" fill="#F4EEDF" stroke="#26384D" stroke-width="3"/>
+  <rect x="2" y="2" width="1096" height="406" rx="18" fill="url(#dots)"/>
+
+  <text x="42" y="46" fill="#C85B4B" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="700" letter-spacing="2">PROJECT MAP / FOLLOW THE FAILURE</text>
+  <text x="1058" y="46" text-anchor="end" fill="#6A5D4B" font-family="Georgia, serif" font-size="15" font-style="italic">four ways to make a system easier to trust</text>
+
+  <path d="M550 201 C456 178 395 142 310 125" fill="none" stroke="#66837E" stroke-width="3" stroke-dasharray="7 6"/>
+  <path d="M550 201 C644 178 705 142 790 125" fill="none" stroke="#66837E" stroke-width="3" stroke-dasharray="7 6"/>
+  <path d="M550 201 C456 224 395 276 310 293" fill="none" stroke="#66837E" stroke-width="3" stroke-dasharray="7 6"/>
+  <path d="M550 201 C644 224 705 276 790 293" fill="none" stroke="#66837E" stroke-width="3" stroke-dasharray="7 6"/>
+
+  <g transform="translate(410 151)">
+    <rect x="0" y="0" width="280" height="100" rx="50" fill="#172535" stroke="#172535" stroke-width="3"/>
+    <text x="140" y="43" text-anchor="middle" fill="#F4EEDF" font-family="Georgia, serif" font-size="25" font-weight="700">reliable systems</text>
+    <text x="140" y="70" text-anchor="middle" fill="#D8CCBA" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">REPLAY · EVIDENCE · RECOVERY</text>
+  </g>
+
+  <g transform="translate(70 78) rotate(-1)">
+    <rect x="0" y="0" width="310" height="96" rx="12" fill="#E5D5B5" stroke="#26384D" stroke-width="2.5"/>
+    <circle cx="30" cy="28" r="9" fill="#C85B4B"/>
+    <text x="52" y="35" fill="#172535" font-family="Georgia, serif" font-size="24" font-weight="700">PulseCart</text>
+    <text x="30" y="68" fill="#26384D" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">END-TO-END DATA PLATFORM</text>
+  </g>
+
+  <g transform="translate(720 78) rotate(1)">
+    <rect x="0" y="0" width="310" height="96" rx="12" fill="#D5E1DC" stroke="#26384D" stroke-width="2.5"/>
+    <circle cx="30" cy="28" r="9" fill="#4E7A73"/>
+    <text x="52" y="35" fill="#172535" font-family="Georgia, serif" font-size="24" font-weight="700">StreamLedger</text>
+    <text x="30" y="68" fill="#26384D" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">CDC + SAFE REPLAY</text>
+  </g>
+
+  <g transform="translate(70 246) rotate(1)">
+    <rect x="0" y="0" width="310" height="96" rx="12" fill="#E7D6D2" stroke="#26384D" stroke-width="2.5"/>
+    <circle cx="30" cy="28" r="9" fill="#A85C52"/>
+    <text x="52" y="35" fill="#172535" font-family="Georgia, serif" font-size="24" font-weight="700">DriftLedger</text>
+    <text x="30" y="68" fill="#26384D" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">FEATURE SAFETY + SKEW</text>
+  </g>
+
+  <g transform="translate(720 246) rotate(-1)">
+    <rect x="0" y="0" width="310" height="96" rx="12" fill="#DCE0C6" stroke="#26384D" stroke-width="2.5"/>
+    <circle cx="30" cy="28" r="9" fill="#73804C"/>
+    <text x="52" y="35" fill="#172535" font-family="Georgia, serif" font-size="24" font-weight="700">QueryBudget</text>
+    <text x="30" y="68" fill="#26384D" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">WAREHOUSE COST CONTROL</text>
+  </g>
+
+  <text x="550" y="382" text-anchor="middle" fill="#6A5D4B" font-family="Georgia, serif" font-size="17" font-style="italic">Choose a failure mode → follow the evidence → replay the fix.</text>
+</svg>
